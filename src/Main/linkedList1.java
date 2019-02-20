@@ -16,8 +16,14 @@ private linkedList1 next;
         return next;
     }
 
+    public linkedList1() {
+
+
+    }
+
     public void setNext(linkedList1 next) {
         this.next = next;
+        this.next=null;
     }
 
     public linkedList1(int data) {
@@ -26,5 +32,10 @@ private linkedList1 next;
 
     public linkedList1(linkedList1 next) {
         this.next = next;
+    }
+
+    public linkedList1(int data,linkedList1 next) {
+        this.data=data;
+        this.next=next;
     }
 }

@@ -37,5 +37,7 @@ private int currentSize;
     public static void main(String[] args) {
         MylinkedList linkedList = new MylinkedList();
         linkedList1 linkedList1 = new linkedList1(10,null);
+
+
     }
 }
